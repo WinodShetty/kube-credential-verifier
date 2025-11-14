@@ -17,6 +17,10 @@ spec:
         image: yourdockerhub/verification-service
         ports:
         - containerPort: 5000
+      - name: verification
+        image: yourdockerhub/verification-service
+        ports:
+        - containerPort: 5000        
 ---
 apiVersion: v1
 kind: Service
